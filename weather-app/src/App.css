@@ -1,0 +1,71 @@
+*{
+  font-family: Helvetica;
+  color:black;
+  font-family: 'Helvetica Neue', Helvetica;
+}
+body,html{
+  margin: 0 auto;
+  background:linear-gradient(180deg, #f57bb4 0%, rgba(255, 239, 157, 0) 99.45%);
+  
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-size: 4em;
+  font-weight: light;
+}
+
+.container{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: ghostwhite;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  min-height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0,.3);
+}
+
+.search-container{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+input, button{
+  font-size: 1em;
+  padding: 7px;
+  margin: 0 0 0 10px;
+  border: 1px solid rgb(11, 80, 76);
+  border-radius: 5px;
+}
+form{
+  margin: auto;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 70vh;
+}
+button{
+  background-color: y;
+}
+button:hover{
+  background-color:black;
+}
