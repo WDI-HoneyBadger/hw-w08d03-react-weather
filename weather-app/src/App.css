@@ -1,15 +1,21 @@
 .app {
-  background: linear-gradient(180deg, #C5E0FF 0%, rgba(255, 239, 157, 0) 99.45%);
+  background-color: aliceblue;
   height: 100vh;
   width: 100vw;
   position: absolute;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+  margin-top: 10vh;
+  color: rgb(255, 215, 0)
 }
 
 .search {
   width: 50%;
   height: 50px;
   margin: 0 auto;
-  margin-top: 30vh;
   text-align: center;
   padding: 40px;
   display: flex;
@@ -18,8 +24,8 @@
 }
 
 .search > input {
-  height: 30px;
-  width: 400px;
+  height: 25px;
+  width: 200px;
   border-radius: 8px;
   border-style: solid;
   border-color: lightblue;
@@ -34,35 +40,17 @@
   width: 100px;
   font-size: 15px;
   border-radius: 8px;
-  background-color: #FFABAB;
+  background-color: rgba(255, 215, 0, 0.4);
 }
 
-.randomQuote {
-  width: 50%;
-  margin: 0 auto;
-  background-color: white;
-  text-align: center;
-  padding: 80px;
-  margin-top: 30vh;
-  font-size: 40px;
-  border-radius: 8px;
-}
 
-.toggle-btn {
-  position: fixed;
-  top: 40px;
-  right: 50px;
-  height: 30px;
-  width: 150px;  
-  border-radius: 8px;
-  font-size: 14px;
-  background-color: #FFABAB;
-}
 
-.search-results > p {
-  width: 80%;
+.search-zipcode > h4, p {
+  width: 30%;
   margin: 0 auto;
   margin-top: 25px;
-  background-color: rgba(255, 255, 255, 0.308);
+  background-color: rgba(255, 215, 0, 0.1);
+  border-radius: 8px;
   padding: 10px;
+
 }
